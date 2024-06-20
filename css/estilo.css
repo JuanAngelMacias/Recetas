@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #3498db;
+}
+
+nav .navbar-brand {
+  color: white;
+}
+
+nav .nav-link {
+  color: white;
+}
+
+nav .nav-link:hover {
+  color: #2ecc71;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+}
+
+.tarjeta.animado {
+  animation: desvanecer 2s;
+}
+
+@keyframes desvanecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-ajustada {
+  height: 100px;
+  object-fit: contain;
+  width: 100%;
+}

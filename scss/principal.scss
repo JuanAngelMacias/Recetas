@@ -1,0 +1,10 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/animaciones';
+@import 'base/reset';
+@import 'layout/navegacion';
+@import 'componentes/tarjeta';
+
+body {
+  font-family: $fuente-principal;
+}

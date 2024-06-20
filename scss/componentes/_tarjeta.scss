@@ -1,0 +1,22 @@
+.tarjeta {
+  @include centro-flex;
+  background-color: $color-primario;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.animado {
+    animation: desvanecer 2s;
+  }
+}
+.img-ajustada {
+  height: 100px;
+  object-fit: contain;
+  width: 100%;
+}
+

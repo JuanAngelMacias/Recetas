@@ -1,0 +1,15 @@
+nav {
+  background-color: $color-primario;
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .nav-link {
+    color: white;
+
+    &:hover {
+      color: $color-secundario;
+    }
+  }
+}
